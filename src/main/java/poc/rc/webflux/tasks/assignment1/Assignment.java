@@ -16,7 +16,7 @@ public class Assignment {
   private ReqHandler reqHandler;
 
   @Bean
-  public RouterFunction<ServerResponse> serverResponseRouterFunction() {
+  public RouterFunction<ServerResponse> serverResRouterFunction() {
     return RouterFunctions.route()
         .GET("calculator/{inp1}/{inp2}", isOperation("+"), reqHandler::addHandler)
         .GET("calculator/{inp1}/{inp2}", isOperation("-"), reqHandler::subHandler)
