@@ -1,7 +1,9 @@
 Spring Web Flux
 
-#### Light Weight Functional Endpoints
-  - Path Based Routing
-  - Path
+#### Light weight Functional Endpoints
+  - Path based routing
+  - Path + Condition based routing
+  - Nested routing
+  - Error Handling
   
 Content from Reactive Microservices with Spring WebFlux course in Udemy by Vinoth Selvaraj
